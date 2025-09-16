@@ -1,4 +1,4 @@
-# next-public-path
+# nextbasepath
 
 Tiny wrapper components and utilities to make **Next.js static export (`output: "export"`)** work correctly with assets in the `public/` folder when hosting on sub-paths — especially **GitHub Pages**.
 
@@ -19,7 +19,7 @@ Tiny wrapper components and utilities to make **Next.js static export (`output: 
 Since this package is not published on npm, install it directly from your public repo:
 
 ```bash
-npm install hieupth/next-public-path#main
+npm install hieupth/nextbasepath#main
 ```
 
 Because this is installed from Git, the package uses `prepare` to build automatically on install.
@@ -27,7 +27,7 @@ Because this is installed from Git, the package uses `prepare` to build automati
 ## 🛠️ Usage
 
 ```tsx
-import { Image, Link, Anchor, Bg } from "next-public-path/components";
+import { Image, Link, Anchor, Bg } from "nextbasepath/components";
 
 // Image wrapper: auto-prefix basePath
 <Image src="/next.svg" alt="Next.js logo" width={180} height={38} />
